@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #espaco {
+            background-image: url('imagens/espaco.jpg');
+            position: relative;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+
+        #astronauta {
+            background-image: url('imagens/astronauta.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 350px;
+            width: 350px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="espaco">
+        <div id="astronauta">
+        </div>
+    </div>
+</body>
+</html>
